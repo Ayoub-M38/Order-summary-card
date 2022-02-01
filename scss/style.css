@@ -1,0 +1,130 @@
+:root {
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: var(--Pale-blue);
+}
+
+.container {
+  background-color: white;
+  height: 650px;
+  max-width: 400px;
+  border-radius: 15px;
+  margin-top: 70px;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  width: 100%;
+}
+
+h1 {
+  color: var(--Dark-bue);
+}
+
+p {
+  color: var(--Desaturated-blue);
+  max-width: 30ch;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+.plan a {
+  margin-left: 40px;
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+
+.plan a:hover {
+  color: var(--Desaturated-blue);
+  text-decoration: none;
+}
+
+span {
+  color: var(--Desaturated-blue);
+  font-weight: 400;
+}
+
+button {
+  width: 300px;
+  padding: 20px 0px;
+  margin: 24px;
+  background-color: var(--Bright-blue);
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  font-weight: 900;
+  -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9d96e8;
+}
+
+.cancel-order {
+  font-weight: 700;
+  color: var(--Desaturated-blue);
+  text-decoration: none;
+}
+
+.cancel-order:hover {
+  color: var(--Dark-bue);
+}
+
+@media only screen and (max-width: 425px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+  }
+  .container {
+    width: 350px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
