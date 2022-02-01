@@ -23,11 +23,11 @@ body {
 .container {
 	background-color: white;
 	height: 700px;
-	max-width: 400px;
+	max-width: 500px;
 	border-radius: 15px;
 	margin-top: 100px;
 	overflow: hidden;
-	box-shadow: 0px 20px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.1);
 }
 
 .hero {
@@ -57,7 +57,7 @@ p {
 		color: var(--Bright-blue);
 		font-weight: 700;
 	}
-
+	
 	a:hover {
 		color: var(--Desaturated-blue);
 		text-decoration: none;
@@ -70,7 +70,7 @@ span {
 }
 
 button {
-	width: 300px;
+	width: 80%;
 	padding: 20px 0px;
 	margin: 24px;
 	background-color: var(--Bright-blue);
